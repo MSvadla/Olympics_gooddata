@@ -1,0 +1,17 @@
+{
+    "data": {
+        "id": "cab-olympics-cze",
+        "type": "workspace",
+        "attributes": {
+            "name": "CAB-Olympics CZE"
+        },
+        "relationships": {
+            "parent": {
+              "data": {
+                "id": "cab-olympics",
+                "type": "workspace"
+              }
+            }
+          }
+    }
+}

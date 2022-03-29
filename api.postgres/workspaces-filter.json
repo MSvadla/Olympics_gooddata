@@ -1,0 +1,49 @@
+{
+    "workspaceDataFilters": [
+      {
+        "id": "country",
+        "title": "Country",
+        "columnName": "noc_name",
+        "dataSourceId": "Olympics",
+        "workspace": {
+          "id": "cab-olympics",
+          "type": "workspace"
+        },
+        "workspaceDataFilterSettings": [
+          {
+            "id": "cab-olympics-filter-cze",
+            "title": "CAB-Olympics filter CZE",
+            "filterValues": [
+              "Czech Republic"
+            ],
+            "workspace": {
+              "id": "cab-olympics-cze",
+              "type": "workspace"
+            }
+          },
+          {
+            "id": "cab-olympics-filter-fin",
+            "title": "CAB-Olympics filter FIN",
+            "filterValues": [
+              "Finland"
+            ],
+            "workspace": {
+              "id": "cab-olympics-fin",
+              "type": "workspace"
+            }
+          },
+          {
+            "id": "cab-olympics-filter-us",
+            "title": "CAB-Olympics filter USA",
+            "filterValues": [
+              "USA"
+            ],
+            "workspace": {
+              "id": "cab-olympics-us",
+              "type": "workspace"
+            }
+          }
+        ]
+      }
+    ]
+  }
